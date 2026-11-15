@@ -1,0 +1,79 @@
+{
+  "app": {
+    "enabled": true,
+    "message": "",
+    "restart": false,
+    "min_version_code": 0,
+    "update_url": ""
+  },
+  "ads": {
+    "enabled": false,
+    "title": "مساحة إعلانية",
+    "subtitle": "ضع هنا نص إعلانك",
+    "image_url": "",
+    "link": "https://example.com",
+    "open_in_app": false
+  },
+  "cards": [
+    {
+      "id": "movies",
+      "title": "ترشيح الأفلام",
+      "icon": "movie",
+      "enabled": true,
+      "items": [
+        {
+          "title": "فيلم الأسبوع",
+          "url": "https://www.rottentomatoes.com/top/bestofrt"
+        },
+        {
+          "title": "قائمة الأفلام الأعلى تقييماً",
+          "url": "https://www.imdb.com/chart/top"
+        }
+      ]
+    },
+    {
+      "id": "watch_sites",
+      "title": "مواقع المشاهدة",
+      "icon": "sites",
+      "enabled": true,
+      "items": [
+        {
+          "title": "الموقع الأول",
+          "url": "https://example.com/watch-site-1"
+        },
+        {
+          "title": "الموقع الثاني",
+          "url": "https://example.com/watch-site-2"
+        }
+      ]
+    },
+    {
+      "id": "privacy",
+      "title": "سياسة الخصوصية",
+      "icon": "privacy",
+      "enabled": true,
+      "items": [
+        {
+          "title": "سياسة الخصوصية",
+          "url": "https://example.com/privacy-policy"
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "title": "عن التطبيق",
+      "icon": "about",
+      "enabled": true,
+      "items": [
+        {
+          "title": "تواصل معنا على تيليجرام",
+          "url": "https://t.me/your_channel"
+        },
+        {
+          "title": "عن التطبيق",
+          "text": "StreamoAI - متصفح ذكي لاستخراج الروابط المباشرة للبث. هذه النصوص تجيب من ملف الإعدادات على GitHub ويمكن تغييرها في أي وقت بدون تحديث التطبيق."
+        }
+      ]
+    }
+  ]
+}
